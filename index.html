@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <title>Simon</title>
+</head>
+
+<body>
+  <div class="rules">
+    <div id="rules-btn">?</div>
+    <img src="07-03-09-13-45-37-813441.jpg" id="rules-img">
+  </div>
+  </div>
+  <div class="container">
+    <!-- Boutons -->
+    <div class="container-in">
+      <div class="row">
+        <div class="top-left blue push inline" id="blue" data-idx="0"></div>
+        <div class="top-right purple push inline" id="purple" data-idx="1"></div>
+      </div>
+      <div class="row">
+        <div class="bottom-left orange push inline" id="orange" data-idx="2"></div>
+        <div class="bottom-right yellow push inline" id="yellow" data-idx="3"></div>
+      </div>
+    </div>
+    <!-- Menu -->
+    <div class="game-center">
+      <h1 class="branding">simon</h1>
+      <div class="row">
+        <div class="screen inline">
+          <h2 class="count led-off" id="counter">0</h2>
+          <p class="label">Compteur</p>
+        </div>
+        <div class="btn-box inline">
+          <div class="round-btn btn-green" id="start"></div>
+          <p class="label">START</p>
+        </div>
+        <div class="btn-box inline">
+          <div class="round-btn" id="restart"></div>
+          <p class="label">RESTART</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  </div>
+
+  <script async defer src="script.js"></script>
+</body>
+
+</html>
